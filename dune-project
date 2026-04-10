@@ -14,9 +14,7 @@
 (package
  (name ppxlib)
  (depends
-;; 5.3 support is still experimental, remember to set the upper bound
-;; to 5.3.0 when cutting a release and then back to 5.4.0 afterwards.
-  (ocaml (and (and (>= 4.08.0) (< 5.6.0))))
+  (ocaml (and (and (>= 4.08.0) (< 5.7.0))))
   (ocaml-compiler-libs (>= v0.11.0))
   (ppx_derivers (>= 1.0))
   (sexplib0 (>= v0.12))
